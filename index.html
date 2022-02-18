@@ -65,9 +65,48 @@
 						<h2>Our Laundry Services
 						</h2>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					<span>Running low on clothes for a big interview? No problem!</span>
+
+					<p>Fully equipped with <strong>large</strong> washing machines and <strong>long rows</strong>
+					of dryers, Washing on Sunshine has everything you need to be a little more prepared. Accompained with affordable prices, we make sure <strong>everyone</strong> can use our services. 
+									</p>
+					<span> Wanting to <strong>reserve</strong> a spot at our launderette? Fill in this form below.</span>
+									<form action="reservation.php" method="post">
+										<div class="elem-group">
+										  <label for="name"><strong>Your Name</strong></label>
+										  <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+										</div>
+										<div class="elem-group">
+										  <label for="email"><strong>Your E-mail</strong></label>
+										  <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+										</div>
+										<div class="elem-group">
+										  <label for="phone"><strong> Phone</strong></label>
+										  <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+										</div>
+										<hr>
+										<div class="elem-group inlined">
+										  <label for="adult"><strong># of Washing Machines</strong></label>
+										  <input type="number" id="adult" name="total_adults">
+										</div>
+										<div class="elem-group inlined">
+										  <label for="child"><strong># of Dryers</strong></label>
+										  <input type="number" id="child" name="total_children">
+										</div>
+										<div class="elem-group inlined">
+										  <label for="checkin-date"><strong>Date of Reservation?</strong></label>
+										  <input type="date" id="checkin-date" name="checkin" required>
+										</div>
+									   <label for="appt"><strong>Time Do You Want to Reserve This?</strong></label>
+									  
+									  <input type="time" id="appt" name="appt"
+									  >
+									  
+						
+										<div class="elem-group">
+										 
+										<button><strong>Submit :)</strong> </button>
+									  </form>
 				</div>
 			
 			</section>
