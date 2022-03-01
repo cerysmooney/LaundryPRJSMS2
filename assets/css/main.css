@@ -1852,6 +1852,15 @@ input, select, textarea {
 				font-size: 1.25em;
 			}
 
+	#header h1 {
+		position: absolute;
+		left: 1em;
+		top: 0;
+		height: 3em;
+		line-height: 3em;
+		cursor: default;
+	}
+			
 		#header nav {
 			position: absolute;
 			right: 0.5em;
@@ -1890,7 +1899,7 @@ input, select, textarea {
 				#header h1 {
 					text-align: center;
 					position: relative;
-					left: 0;
+					left: 0px;
 					top: 0;
 					height: 2.5em;
 					line-height: 2.5em;
