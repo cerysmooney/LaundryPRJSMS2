@@ -1848,6 +1848,12 @@ input, select, textarea {
 		line-height: 3em;
 		cursor: default;
 	}
+	#logo_image{
+		height: 51px;
+	}
+	
+
+	
 			
 		#header nav {
 			position: absolute;
@@ -1892,6 +1898,12 @@ input, select, textarea {
 					height: 2.5em;
 					line-height: 2.5em;
 				}
+
+
+				#logo_image{
+					height: 39px;
+				}
+				
 
 					#header h1 a {
 						font-size: 1em;
